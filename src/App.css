@@ -96,15 +96,15 @@ button:hover {
 }
 
 .counter:nth-child(1) {
-  background: #fde8ea;
-  color: #e63946;
-  border: 1.5px solid #f5c2c7;
-}
-
-.counter:nth-child(2) {
   background: #e3f5ec;
   color: #2d9e5f;
   border: 1.5px solid #a7dfc3;
+}
+
+.counter:nth-child(2) {
+  background: #fde8ea;
+  color: #e63946;
+  border: 1.5px solid #f5c2c7;
 }
 
 .counter:nth-child(3) {

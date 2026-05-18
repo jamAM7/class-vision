@@ -57,6 +57,21 @@ function App() {
             <strong>—</strong>
           </div>
         </div>
+        
+        {/* Summary */}
+        <div className="summary">
+          <p>Status: <strong>—</strong></p>
+          <p>Peak Person Count: <strong>—</strong></p>
+          <p>Peak Monitor Count: <strong>—</strong></p>
+          
+          <div className="timeline-log">
+            <p className="log-title">Event Log</p>
+            <ul>
+              <li>00:12 — Person count exceeded monitor count</li>
+              <li>01:45 — Capacity restored</li>
+            </ul>
+          </div>
+        </div>
       </main>
     </div>
   )
