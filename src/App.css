@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  color: #0f1117;
+}
+
+/* Header */
+header {
+  background: #b8d8f0;
+  padding: 14px 28px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  border-bottom: 2px solid #a0bfd8;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+header span {
+  font-size: 0.8rem;
+  color: #3a6080;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 24px;
+  gap: 20px;
+}
+
+/* Video area */
+.video-area {
+  width: 100%;
+  max-width: 760px;
+  aspect-ratio: 16 / 10;
+  background: #1a1d23;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.video-area video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Upload button */
+button {
+  background: #1a56db;
+  color: white;
+  border: none;
+  padding: 10px 32px;
+  border-radius: 7px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1648c4;
+}
+
+/* Counters */
+.counters {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  max-width: 760px;
+}
+
+.counter {
+  flex: 1;
+  border-radius: 10px;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.counter:nth-child(1) {
+  background: #fde8ea;
+  color: #e63946;
+  border: 1.5px solid #f5c2c7;
+}
+
+.counter:nth-child(2) {
+  background: #e3f5ec;
+  color: #2d9e5f;
+  border: 1.5px solid #a7dfc3;
+}
+
+.counter:nth-child(3) {
+  background: #f0f2f5;
+  color: #4b5563;
+  border: 1.5px solid #e2e5ea;
+}
+
+.counter strong {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
