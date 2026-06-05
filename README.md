@@ -57,7 +57,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-> Use `opencv-python-headless` not `opencv-python` — the headless version avoids GUI dependencies that aren't needed for server-side frame processing.
+
 
 Start the Flask server:
 
